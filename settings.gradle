@@ -1,0 +1,4 @@
+// include ':tracker-asm'
+include ':tracker'
+include ':app'
+rootProject.name = "GradlePlugInApplication"

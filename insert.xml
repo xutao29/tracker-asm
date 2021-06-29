@@ -1,0 +1,13 @@
+<insert>
+
+    <click>
+        <name>onClick</name>
+        <descriptor>(Landroid/view/View;)V</descriptor>
+    </click>
+
+    <click>
+        <name>onCheckedChanged</name>
+        <descriptor>(Landroid/widget/RadioGroup;I)V</descriptor>
+    </click>
+
+</insert>

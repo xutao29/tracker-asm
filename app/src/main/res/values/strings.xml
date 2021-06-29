@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GradlePlugInApplication</string>
+    <string name="button_tracker">button tracker</string>
+    <string name="image_view_tracker">image view tracker</string>
+    <string name="text_view_tracker">text view tracker</string>
+    <string name="check_bos_tracker">check bos tracker</string>
+    <string name="radio_button_01_tracker">radio button 01 tracker</string>
+    <string name="radio_button_02_tracker">radio button 02 tracker</string>
+    <string name="dialog_tracker">dialog tracker</string>
+</resources>
