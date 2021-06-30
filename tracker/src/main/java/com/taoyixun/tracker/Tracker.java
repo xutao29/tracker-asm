@@ -7,10 +7,6 @@ import com.taoyixun.tracker.listener.TrackerListener;
 
 import org.jetbrains.annotations.NotNull;
 
-/**
- * created by xutao
- * on 6/23/21
- */
 public class Tracker {
     private static TrackerListener clickDelegate = new DefaultDelegate();
 

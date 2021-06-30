@@ -13,11 +13,9 @@ import com.taoyixun.tracker.util.ViewUtils.getDescription
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-/**
- * created by xutao
- * on 6/23/21
- */
 abstract class BaseTrackerDelegate : TrackerListener {
+
+    private val actionWhatCode = 100
 
     private val executor: ExecutorService by lazy {
         Executors.newCachedThreadPool()
@@ -30,8 +28,6 @@ abstract class BaseTrackerDelegate : TrackerListener {
             }
         }
     }
-
-    private val actionWhatCode = 1
 
     override fun onClick(view: View) {
         executor.execute {

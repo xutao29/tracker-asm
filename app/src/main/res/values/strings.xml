@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GradlePlugInApplication</string>
+    <string name="app_name">TrackerAsm</string>
     <string name="button_tracker">button tracker</string>
     <string name="image_view_tracker">image view tracker</string>
     <string name="text_view_tracker">text view tracker</string>

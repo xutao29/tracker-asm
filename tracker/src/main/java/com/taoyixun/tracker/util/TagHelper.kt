@@ -2,7 +2,6 @@ package com.taoyixun.tracker.util
 
 import android.view.View
 
-// java use
 object TagHelper {
 
     private val TRACKER_EVENT_ID_TAG = "TRACKER_EVENT_ID".hashCode()
@@ -16,6 +15,7 @@ object TagHelper {
             setTag(TRACKER_EVENT_ID_TAG, value)
         }
 
+    // java use
     @JvmStatic
     fun setTracker(view: View, eventId: String) {
         view.trackerTag = eventId
